@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.nw-engine.com/modules.xsd">
+	<module name="Simple Banking" version="0.3" author="Djkanna"/>
+	<variable name="sb_bankAmount" value="0" />
+
+	<key name="sb_depositFee" description="Fee ( in percent ) on bank deposits. ( Leave 0 for no fee )" value="0" />
+	<key name="sb_withdrawFee" description="Fee ( in percent ) on bank withdrawls. ( Leave 0 for no fee )" value="0" />
+	<key name="sb_feeRequiredAmount" description="Minimum amount required before fees are taken, advised to be 10 or more before fees are taken. ( Default: 100 )" value="100" />
+	<key name="sb_interestRequiredAmount" description="Minimum amount required before interest is given. ( Defaults at 100 )" value="100" />
+	<key name="sb_interestPerc" description="Interest ( in percent relative to bank balance ) per day. ( Leave 0 for no interest )" value="0" />
+	<key name="sb_bankTitle" description="Name of bank, shown in the banking module" value="Simple Bank" />
+	<key name="sb_menuTitle" description="Name that shows in the menu" value="Simple Banking" />
+
+</configuration>
